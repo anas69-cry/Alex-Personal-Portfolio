@@ -22,27 +22,89 @@
         <div class="container mx-auto px-{1170px} mt-7 font-roboto">
             <div class="navbar-left flex ">
                 <div class="nav-left-content flex">
-                <div class="navbar-logo">
-                    <picture><img src="./img/Group 8995.png" alt=""></picture>
+                    <div class="navbar-logo">
+                        <picture><img src="./img/Group 8995.png" alt=""></picture>
+                    </div>
+                    <div class="navbar-name ml-2.5 my-auto">
+                        <h2 class="font-medium">helloalex.developer</h2>
+                    </div>
                 </div>
-                <div class="navbar-name ml-2.5 my-auto">
-                    <h2 class="font-medium">helloalex.developer</h2>
-                </div>
-                </div>
-                 <ul class="flex ml-auto my-auto">
-                     <li class="mx-6"><a href="#">Home</a></li>
-                     <li class="mx-6"><a href="#">About</a></li>
-                     <li class="mx-6"><a href="#">Contact</a></li>
-                     <li class="mx-6"><a href="#">Portfolio</a></li>
-                     <li class="ml-6"><a href="#">Blog</a></li>
-                 </ul>
+                <ul class="flex ml-auto my-auto">
+                    <li class="mx-6"><a href="#">Home</a></li>
+                    <li class="mx-6"><a href="#">About</a></li>
+                    <li class="mx-6"><a href="#">Contact</a></li>
+                    <li class="mx-6"><a href="#">Portfolio</a></li>
+                    <li class="ml-6"><a href="#">Blog</a></li>
+                </ul>
             </div>
-        
+
+        </div>
+        <div class="h-px bg-gray-300 w-full mt-[37px]"></div>
+        </div>
+    </section>
+    <!-- =================
+          Navbar Start
+        ================== -->
+
+    <!-- =================
+          Banner Start
+        ================== -->
+
+    <section id="banner">
+        <div class="container mx-auto px-{1170px} mt-20 font-roboto ">
+            <div class="banner-img mx-auto">
+                <img class="mx-auto" src="./img/Group 9118.png" alt="">
             </div>
-            <div class="h-px bg-gray-300 w-full mt-[37px]"></div>
+            <div class="banner-shape relative">
+                <img class="absolute top-[-70px] left-[40px]" src="./img/Rectangle 807.png" alt="">
+                <img class="absolute right-[370px] top-[-45px]" src="./img/Rectangle 815.png" alt="">
+                <img class="absolute right-[-330px] top-[-160px]" src="./img/Rectangle 808.png" alt="">
+                <img class="absolute left-[215px] bottom-[-335px]" src="./img/Rectangle 814.png" alt="">
+                <img class="absolute right-[60px] top-[215px]" src="./img/Rectangle 8103.png" alt="">
+                <img class="absolute left-[-385px] top-[140px]" src="./img/Rectangle 8807.png" alt="">
+                <img class="absolute right-[-220px] top-[475px]" src="./img/Rectangle 8104.png" alt="">
+            </div>
+            <div class="banner-content text-center">
+                <h3 class="text-main-color text-2xl font-bold   my-[20px]">Hello, myself Alex....</h3>
+                <div class="banner-h1 text-center">
+                    <h1 class="font-bold text-[64px] w-[637px] mx-auto leading-[4.75rem] mb-[25px]">Creating fast
+                        website
+                        and softwares </h1>
+                </div>
+                <p class=" mb-[40px] text-size[18px] text-p-color w-[448px]
+                 mx-auto">Lorem ipsum dolor sit amet, consecttur adipiscing Orci
+                    fauff cibus urna, sed senectus iaculis leo condimentum. Maenas nec adipiscing neque, pellentesque
+                    in. Metus fusce.</p>
+                <button class="bg-main-color px-[40px] py-[10px] rounded-full text-white font-bold">Know About
+                    Me</button>
+            </div>
+            <!-- Banner Logo -->
+            <div class="banner-logo flex justify-between pt-24">
+                <picture>
+                    <img class="" src="./img/image 3.png" alt="">
+                </picture>
+                <picture>
+                    <img class="" src="./img/image 4.png" alt="">
+                </picture>
+                <picture>
+                    <img class="" src="./img/image 5.png" alt="">
+                </picture>
+                <picture>
+                    <img class="" src="./img/image 6.png" alt="">
+                </picture>
+                <picture>
+                    <img class="" src="./img/image 7.png" alt="">
+                </picture>
+                <picture>
+                    <img class="" src="./img/image 8.png" alt="">
+                </picture>
+            </div>
         </div>
     </section>
 
+    <!-- =================
+          Banner End
+        ================== -->
     <script src="./js/all.min.js"></script>
     <script>
         tailwind.config = {
@@ -50,6 +112,10 @@
                 extend: {
                     fontFamily: {
                         roboto: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'main-color': '#FF5733',
+                        'p-color': '#888888',
                     }
                 }
             }
