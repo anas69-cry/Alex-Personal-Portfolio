@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <!-- =================
           Navbar Start
         ================== -->
@@ -52,11 +52,12 @@
           Banner Start
         ================== -->
 
-    <section id="banner">
+    <section id="banner ">
         <div class="container mx-auto px-{1170px} mt-20 font-roboto ">
             <div class="banner-img mx-auto">
                 <img class="mx-auto" src="./img/Group 9118.png" alt="">
             </div>
+            <div class="w-[70%] h-[40px]"></div>
             <div class="banner-shape relative">
                 <img class="absolute top-[-70px] left-[40px]" src="./img/Rectangle 807.png" alt="">
                 <img class="absolute right-[370px] top-[-45px]" src="./img/Rectangle 815.png" alt="">
@@ -66,6 +67,7 @@
                 <img class="absolute left-[-385px] top-[140px]" src="./img/Rectangle 8807.png" alt="">
                 <img class="absolute right-[-220px] top-[475px]" src="./img/Rectangle 8104.png" alt="">
             </div>
+            
             <div class="banner-content text-center">
                 <h3 class="text-main-color text-2xl font-bold   my-[20px]">Hello, myself Alex....</h3>
                 <div class="banner-h1 text-center">
@@ -139,48 +141,118 @@
         ================== -->
 
     <section id="service">
-        <div class="service-wrapper container mx-auto px-{1170px} mt-[180px] ">
+        <div class="service-wrapper container mx-auto px-{1370px} mt-[180px] ">
             <div class="service-header  text-center pb-14 relative">
                 <h2 class="font-noticia font-bold text-[48px]">Providing Services</h2>
                 <img class="mx-auto absolute right-[550px] top-[75px]" src="./img/Vector 105.png" alt="">
             </div>
             <div class="service-list-wrapper flex justify-evenly">
-            <div
-                class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
-                <img class="pt-[100px]" src="./img/Group 9.png" alt="">
-                <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">Research And Design</h3>
-                <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit.
-                    Malesa est sagittis et nuasslla ntis enim vel
-                    suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-                <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div
-                class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
-                <img class="pt-14" src="./img/Group 8.png" alt="">
-                <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">User Interface Design</h3>
-                <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit.
-                    Malesa est sagittis et nuasslla ntis enim vel
-                    suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-                <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div
-                class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
-                <img class="pt-14" src="./img/Group 6.png" alt="">
-                <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">User Experience Design</h3>
-                <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit.
-                    Malesa est sagittis et nuasslla ntis enim vel
-                    suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-                <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+                <div
+                    class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
+                    <img class="pt-[100px]" src="./img/Group 9.png" alt="">
+                    <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">Research And Design</h3>
+                    <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd
+                        ctetur adipiscing elit.
+                        Malesa est sagittis et nuasslla ntis enim vel
+                        suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                    <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div
+                    class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
+                    <img class="pt-14" src="./img/Group 8.png" alt="">
+                    <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">User Interface Design</h3>
+                    <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd
+                        ctetur adipiscing elit.
+                        Malesa est sagittis et nuasslla ntis enim vel
+                        suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                    <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div
+                    class="service-list rounded bg-white shadow-service-list w-[370px] flex flex-col justify-center items-center text-center">
+                    <img class="pt-14" src="./img/Group 6.png" alt="">
+                    <h3 class="font-noticia font-bold text-[25px] pt-[50px] pb-[25px]">User Experience Design</h3>
+                    <p class="font-roboto text-[16px] text-p-color px-[23px] pb-[25px]">Lorem ipsum dolor amet, consesd
+                        ctetur adipiscing elit.
+                        Malesa est sagittis et nuasslla ntis enim vel
+                        suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                    <a class="text-main-color font-bold font-roboto pb-14" href="#">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
             <div class="service-bg container mx-auto px-{1170px} bg-[#F9F9F9] pb-[265px] mt-[-185px] z-0">
-                
+
             </div>
         </div>
     </section>
 
     <!-- =================
           Service End
+        ================== -->
+
+    <!-- =================
+          Experience Start
+        ================== -->
+
+    <section id="experience ">
+        <div class="experience-wrapper container mx-auto px-{1170px} mt-20 flex justify-evenly mb-[160px] ">
+            <div class="experience-left w-[495px]">
+                <h2 class="font-bold font-noticia text-[48px]">I Have brunch Of
+                    Huge Experience.....</h2>
+                <picture>
+                    <img class="ml-[135px] mb-[30px]" src="./img/Vector 106.png" alt="">
+                </picture>
+                <p class="text-p-color text-[18px] mb-[30px] font-roboto">Lorem ipsum dolor sit amet, conse asdsd ctetur
+                    adipiscing elit. Malesa est sagittis et nualla leo ut
+                    nulla aliquam. Nisi, fermetum suspend vene ntis enim vel sussrf bedspend</p>
+                <div class="h-[1px] bg-[#E2E2E2] mb-[30px]"></div>
+                <div class="flex justify-between">
+                    <div class="bg-[#F9F9F9] px-[30px] w-[205px] py-[25px]">
+                        <h3 class="font-bold text-[48px] font-noticia text-main-color">287+</h3>
+                        <p class="font-roboto text-p-color">Lorem ipsum dolor sit amet, consesd </p>
+                    </div>
+                    <div class="bg-[#F9F9F9] px-[30px] w-[260px] py-[25px]">
+                        <h3 class="font-bold text-[48px] font-noticia text-main-color">12 years</h3>
+                        <p class="font-roboto text-p-color">Lorem ipsum dolor siswsst amet, codvsd nssde esd </p>
+                    </div>
+                </div>
+            </div>
+<!-- Right Part -->
+            <div class="experience-right w-[540px] mt-[-30px] font-roboto">
+                <div class="">
+                    <h4 class="text-[25px] font-noticia text-p-color">Senior Product Designer</h4>
+                    <p class="text-[36px] font-bold font-noticia mb-[25px]">Agency Vision Trust</p>
+                    <div class="h-[1px] bg-[#E2E2E2] mb-[15px]"></div>
+                    <div class="flex justify-between">
+                    <p class="text-[#777777]">Dec 2018 - Sep 2019</p>
+                    <p class="text-[#777777] mb-[45px]">Thornridge Cir. Shiloh, Hawaii</p>
+                    </div>
+                </div>
+                <div class="">
+                    <h4 class="text-[25px] font-noticia text-p-color">Lead User experience Designer</h4>
+                    <p class="text-[36px] font-bold font-noticia mb-[25px]">Balkan Brothers Ltd.</p>
+                    <div class="h-[1px] bg-[#E2E2E2] mb-[15px]"></div>
+                    <div class="flex justify-between">
+                    <p class="text-[#777777]">Dec 2018 - Sep 2019</p>
+                    <p class="text-[#777777] mb-[45px]">Washington. Manchester, Kentucky</p>
+                    </div>
+                </div>
+                <div class="">
+                    <h4 class="text-[25px] font-noticia text-p-color">user Experience Designer</h4>
+                    <p class="text-[36px] font-bold font-noticia mb-[25px]">Grabstar Design House</p>
+                    <div class="h-[1px] bg-[#E2E2E2] mb-[15px]"></div>
+                    <div class="flex justify-between">
+                    <p class="text-[#777777]">Dec 2018 - Sep 2019</p>
+                    <p class="text-[#777777]">Thoridge. Syracuse, Connecticut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================
+          Experience End
         ================== -->
     <script src="./js/all.min.js"></script>
     <script>
@@ -195,8 +267,8 @@
                         'main-color': '#FF5733',
                         'p-color': '#888888',
                     },
-                    boxShadow:{
-                        'service-list':'0px -24px 37px -1px rgba(249,249,249,1)'
+                    boxShadow: {
+                        'service-list': '0px -24px 37px -1px rgba(249,249,249,1)'
                     },
                 }
             }
